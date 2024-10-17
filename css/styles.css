@@ -18,7 +18,7 @@
     padding: 20px;
     width: 1157px;
     background-color: #f26744;
-    margin: 0px;
+    margin: 50px auto;
     }
 
 
@@ -35,6 +35,12 @@ h2 {
 }
 
 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: aliceblue;
+}
+
+h4 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     color: aliceblue;
