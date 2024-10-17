@@ -71,3 +71,30 @@ p {
     font-size: large;
 }
 
+.top-nav-bar {
+    background-color: #ca401d;
+    overflow: hidden;
+    padding: 10px;
+    width: 1177px;
+    margin: 50 px auto;
+}
+
+.top-nav-bar a {
+    text-align: center;
+    color: aliceblue;
+    text-align: center;
+    padding: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    
+}
+
+.top-nav-bar a:hover {
+    background-color: #ca401d;
+    box-shadow: 0 4px 8px rgba(2, 81, 239, 0.926);
+}
+
+.top-nav-bar a.active {
+    background-color:#f26744;
+}
