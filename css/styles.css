@@ -28,6 +28,12 @@ h1 {
     color: aliceblue;
 }
 
+.h1textbox {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(0, 35, 9);
+}
+
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -133,4 +139,30 @@ td > h4 {
     text-align: center;
     color: rgb(0, 35, 9);
     font-size: larger;
+}
+
+.button:hover {
+    width: 1200px;
+    background-color: rgb(161, 161, 161);
+    height: 50px;    
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: auto;
+}
+
+.container img {
+    width: 25%;
+    margin: 5vw;
+    flex-grow: 1; 
+    flex-shrink: 1; 
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+      flex-direction: column;
+    }
 }
