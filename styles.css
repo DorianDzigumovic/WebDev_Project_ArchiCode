@@ -1,0 +1,168 @@
+.boxHeading {
+    padding: 20px;
+    width: 1200px;
+    background-color: #f26744;
+    margin: 50px auto;
+    margin-top: 50px auto;
+   }
+   
+.boxtext {
+    border: 2px rgb(216, 239, 235);
+    padding: 20px;
+    width: 1200px;
+    background-color: aliceblue;           
+    margin: 50px auto;
+    }
+    
+.boxfooter {
+    padding: 20px;
+    width: 1157px;
+    background-color: #f26744;
+    margin: 50px auto;
+    }
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.h1textbox {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #568ee8;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: black;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: black;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: black;
+    font-size: large;
+}
+
+#heading{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+#foottext {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: black;
+}
+
+#answertext {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: darkgreen;
+    font-size: large;
+}
+
+.top-nav-bar {
+    background-color: #ca401d;
+    overflow: hidden;
+    padding: 10px;
+    width: 1177px;
+    margin: 50 px auto;
+}
+
+.top-nav-bar a {
+    text-align: center;
+    color: black;
+    text-align: center;
+    padding: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.top-nav-bar a:hover {
+    background-color: #ca401d;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.926);
+}
+
+.top-nav-bar a.active {
+    background-color:#f26744;
+}
+
+#italic {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #465a50;
+    font-size: small;
+}
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: black;
+}
+
+td > h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: black;
+}
+.storytable {
+    
+    background-color: rgb(205, 205, 205);
+}
+
+.button {
+    width: 1200px;
+    background-color: aliceblue;
+    height: 50px;
+}
+
+#buttontext {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: larger;
+}
+
+.button:hover {
+    width: 1200px;
+    background-color: rgb(161, 161, 161);
+    height: 50px;    
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: auto;
+}
+
+.container img {
+    width: 25%;
+    margin: 5vw;
+    flex-grow: 1; 
+    flex-shrink: 1; 
+}
+
+@media only screen and (max-width: 600px)
+{
+    .container{
+      flex-direction: column;
+    }
+}
