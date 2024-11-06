@@ -160,6 +160,10 @@ td > h4 {
     flex-shrink: 1; 
 }
 
+#creator{
+    color: D1D1FF;
+}
+
 @media only screen and (max-width: 600px)
 {
     .container{
