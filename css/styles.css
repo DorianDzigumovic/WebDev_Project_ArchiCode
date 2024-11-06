@@ -17,7 +17,7 @@
 .boxfooter {
     padding: 20px;
     width: 1157px;
-    background-color: #72707233;
+    background-color: #green;
     margin: 50px auto;
     
     }
@@ -163,7 +163,7 @@ td > h4 {
 
 #creator
 {
-    color: ;
+    color: #Green;
 }
 
 @media only screen and (max-width: 600px)
