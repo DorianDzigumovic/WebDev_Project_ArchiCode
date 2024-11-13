@@ -5,6 +5,9 @@
     margin: 50px auto;
     margin-top: 50px auto;
    }
+#new{
+    colour: black;
+}
    
 .boxtext {
     border: 2px rgb(216, 239, 235);
