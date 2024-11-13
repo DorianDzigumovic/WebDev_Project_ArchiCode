@@ -5,9 +5,7 @@
     margin: 50px auto;
     margin-top: 50px auto;
    }
-.new{
-    color: black;
-}
+
    
 .boxtext {
     border: 2px rgb(216, 239, 235);
@@ -44,6 +42,9 @@ h2 {
     color: #568ee8;
 }
 
+.new{
+    color: black;
+}
 h3 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
