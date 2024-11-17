@@ -3,7 +3,6 @@
 
     <head>
         <meta charset="UTF-8">
-
         <meta name="viewport">      
         <title>Snowboarding Trail</title>
         <link rel="stylesheet" href="css/styles.css">
@@ -11,6 +10,7 @@
         <link rel="icon" href="media/snowboard_icon.png">
 
     </head>
+    <body>
        <div class="boxHeading">
             <div class="top-nav-bar">
                 <center>
@@ -18,7 +18,7 @@
                     <a id="heading" href="pages/about.html">About</a>
                     <a id="heading" href="pages/contact.html">Contact us</a>
                     <a id="heading" href="pages/booking.html">Booking</a>
-                    <a id="heading" href="newpage.html">trips</a>
+                    <a id="heading" href="pages/trips.html">Trips</a>
                 </center>
             </div>
         
@@ -33,9 +33,8 @@
         <div class="boxtext">
             <br>
             <br>
-
-                 <label for="wintersport">Search your winter sport</label>
             <br>
+                 <label for="wintersport">Search your winter sport</label>
                     <input list="winter-sport" id="wintersport" name=" winter-sport">
                     <datalist id="winter-sport">
                             <option value="Skiing">
@@ -50,15 +49,60 @@
             <br>
             <h2 class="h1textbox">Our Recommedations:</h2>
 
-                <div class="container">
-                    <img id="image1" src="media\iceskating.jpg"alt="Image of a person ice-skating on a frozen lake" width="400px" hight="400px">
-                    <img id="image2" src="media\snowboarding.jpg"alt="Image of a person snowboarding" width="400px" hight="400px">
-                </div>
-                <div class="container">    
-                    <img id="image3" src="media\skiing.jpg"alt="Image of a person skiing through trees" width="400px" hight="400px">
-                    <img id="image4" src="media\bobsled.jpg"alt="Image of a team racing in a bobsled" width="400px" hight="400px">
-                </div>
+            <div class="container">
+                <section class="reccomendations">
+                    <div class="reccomendImg">
+                        <a>
+                            <img id="image1" src="media\iceskating.jpg"alt="Person ice-skating on a frozen lake" width="100%" height="auto">
+                        </a>
+                        <div class="reccomendDetails">
+                            <p>
+                                Ice skating experience!
+                            </p>
+                        </div>
+                    </div>
+               
+                    <div class="reccomendImg">
+                        <a>
+                            <img id="image2" src="media\snowboarding.jpg"alt="Person snowboarding" width="100%" height="auto">
+                        </a>
+                        <div class="reccomendDetails">
+                            <p>
+                                Awesome snow boarding adventure!
+                            </p>
+                        </div>
+                    </div>  
+                </section>
                 
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <section class="reccomendations">
+                    <div class="reccomendImg">
+                        <a>
+                            <img id="image1" src="media\bobsled.jpg"alt="Bobsled sled racing down the course" width="100%" height="auto">
+                        </a>
+                        <div class="reccomendDetails">
+                            <p>
+                                Rapid bobsled racing!
+                            </p>
+                        </div>
+                    </div>
+               
+                    <div class="reccomendImg">
+                        <a>
+                            <img id="image2" src="media\skiing.jpg"alt="Person skiing" width="100%" height="auto">
+                        </a>
+                        <div class="reccomendDetails">
+                            <p>
+                                Thrilling skiing trip!
+                            </p>
+                        </div>
+                    </div>  
+                </section>          
+
             <br>
             <br>
             <br>
@@ -66,10 +110,6 @@
             <br>
             <br>
             <br>
-            <br>
-            <br>
-            <br>
-            <br>  
             
             <div class="boxfooter">
                 <h3>Review Us!</h3>
