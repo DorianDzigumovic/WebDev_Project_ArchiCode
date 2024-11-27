@@ -113,20 +113,17 @@
             <br>
         </div>
         <script>
-            function darkMode() {
-  var element = document.body
-  var content = document.getElementById("DarkModetext")
-  element.className = "dark-mode"
-  content.innerText = "Dark Mode is ON"
-  let imageMode = document.getElementById("mode")
-            }
-function lightMode() {
-  var element = document.body
-  var content = document.getElementById("DarkModetext")
-  element.className = "light-mode"
-  content.innerText = "Dark Mode is OFF"
-  let imageMode = document.getElementById("mode")
-}
+       function validateForm() {
+           let name = document.getElementById('fname').value;
+           let email = document.getElementById('femail').value;
+           //for avoiding blankspace
+           if(name=='' || email==''){
+               <script>function announceMessage(message){
+                   const liveRegion=document.getElementById("live region");
+                   liveRegion.textContent=message;
+               }
+               announceMessage("please write your name and email");
+                </script>
         </script>
     </body>
 </html>
