@@ -34,23 +34,6 @@
         <br>
         <br>
         <br>
-     <div>
-            <section>
-                <h3>contact form </h3>
-                <form>
-                    <label for ="fname">Full Name:</label><br>
-                    <input type="text" id="fname" name="fname" required><br>
-                    <label for ="femail">Your Email: </label><br>
-                    <input type="email" id="femail" email="femail" placeholder="natasha@gmail.com" pattern=".+@gmail.com" required><br>
-                    <label for="phone"> Enter your phone number: </label><br>
-                    <input type="tel" id="phone" name="phone"required><br>
-                    <small>format:089 81 03459</small><br>
-                    <label for="Message"> Your message:</label><br>
-                    <textarea id="Message" name="Message" rows="3" cols="40"></textarea><br>
-                   <input type="submit" value="submit"><br>
-                </form>
-            </section>
-     </div>
         <br>
         <br>
         <br> 
@@ -102,38 +85,83 @@
                 8. What amenities are available at the trail?
                 <p id="answertext">Amenities include restrooms, a warming hut, food and beverage options, and first aid services.
                 </p>
-            </p>    
+            </p>
+        </div>
             <br>
+        <div class="boxtext">
+            <div>
+                <section>
+                    <h2 class="h2WhiteCenter">Contact Form </h2>
+                    
+                    <form action="feedback.html" method="POST" onsubmit="return validateForm()">
+                        <center>
+                            <label for ="fname">First name:</label>
+                            <br>
+                            <input type="text" id="fname" name="fname" required>
+                            <br>
+                            <br>
+                            <label for ="lastname">Last name (optional):</label>
+                            <br>
+                            <input type="text" name="lastname">
+                            <br>
+                            <br>
+                            <label for ="femail">Your Email: </label>                         
+                            <br>
+                            <input type="email" id="femail" email="femail" placeholder="natasha@gmail.com" required>
+                            <br>
+                            <br>
+                            <label for="phone">Your phone number: </label>
+                            <br>                           
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" maxlength="10" oninput="this.value = this.value.replace(/[^0-9]/g, '');" placeholder="E.g. 089..." required>
+                            <br>
+                            <br>
+                            <label for="Message"> Your message:</label>
+                            <br>
+                            <textarea id="Message" name="Message" rows="3" cols="40" placeholder="Type your message here..." required></textarea>
+                            <br>
+                            <br>
+                            <input type="submit" value="Submit Feedback" role="button">
+                        </center>
+                    </form>
+                </section>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
             <div class="boxfooter">
                 <p id="foottext">Contact info: (087) 686 4929 </p>
                 <br>
                 <p id="foottext">Email: lucassnow@yahoo.ie</p>
                 <p id="foottext"> Phone number: (087) 274 7588</p>                
             </div>
+
             <br>
+
         </div>
-        <script>
-       function validateForm() {
-           let name = document.getElementById('fname').value;
-           let email = document.getElementById('femail').value;
-           let phone = document.getElementById('phone').value;
-           //for avoiding blankspace
-           if(name=='' || email==''){
-               <script>function announceMessage(message){
-                   const liveRegion=document.getElementById("live region");
-                   liveRegion.textContent=message;
-               }
-               announceMessage("please write your name and email");
-            if(phone==''){
-                <script>function announceMessage(message){
-                    const liveRegion=document.getElementById("live region");
-                    liveRegion.textcontent=message;
-                } 
-                announceMessage("please write your phone number");
+
+        <style>
+
+            #Message {
+                max-width: 90%;
             }
-               
-                </script>
+
+        </style>
+
+        <script>
+
+            function validateForm() 
+            {
+                let email = document.getElementById('femail').value;
+            }
+
+            let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) 
+            {
+                alert('Please enter a valid email address');
+            }          
+                   
         </script>
-    
     </body>
 </html>
