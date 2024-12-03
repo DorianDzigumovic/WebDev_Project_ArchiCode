@@ -116,6 +116,7 @@
        function validateForm() {
            let name = document.getElementById('fname').value;
            let email = document.getElementById('femail').value;
+           let phone = document.getElementById('phone').value;
            //for avoiding blankspace
            if(name=='' || email==''){
                <script>function announceMessage(message){
@@ -123,7 +124,16 @@
                    liveRegion.textContent=message;
                }
                announceMessage("please write your name and email");
+            if(phone==''){
+                <script>function announceMessage(message){
+                    const liveRegion=document.getElementById("live region");
+                    liveRegion.textcontent=message;
+                } 
+                announceMessage("please write your phone number");
+            }
+               
                 </script>
         </script>
+    
     </body>
 </html>
