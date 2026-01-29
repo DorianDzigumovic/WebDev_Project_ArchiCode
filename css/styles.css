@@ -1,5 +1,5 @@
 html {
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
 
 .boxHeading {
@@ -8,7 +8,7 @@ html {
     background-color: rgb(16, 28, 39);
     margin: 50px auto;
     margin-top: 50px auto;
-   }
+}
 
    
 .boxtext {
@@ -17,7 +17,7 @@ html {
     width: 80%;
     background-color: rgb(16, 28, 39);           
     margin: 50px auto;
-    }
+}
     
 .boxfooter {
     padding: 0.5%;
@@ -25,7 +25,7 @@ html {
     background-color:aliceblue;
     margin: auto;
     
-    }
+}
 
 
 h1 {
@@ -160,19 +160,30 @@ td > h4 {
 }
 
 .issueButton {
-    width: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    width: 15%;
     background-color: aliceblue;
     height: 6%;
     margin: left;
+    border-color: rgb(16, 28, 39);
+    border-radius: 5%;
+}
 
 #buttontext {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: black;
     font-size: larger;
+    text-decoration: none;
 }
 
 .button:hover {
+    transform: scale(1.05);
+    background-color: rgb(161, 161, 161);   
+}
+
+button:hover {
     transform: scale(1.05);
     background-color: rgb(161, 161, 161);   
 }
@@ -219,4 +230,3 @@ td > h4 {
       flex-direction: column;
     }
 }
-
