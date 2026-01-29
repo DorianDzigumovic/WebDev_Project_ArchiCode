@@ -1,3 +1,7 @@
+html {
+    scroll-behaviour: smooth;
+}
+
 .boxHeading {
     padding: 20px;
     width: 80%;
@@ -155,6 +159,12 @@ td > h4 {
     margin: auto;
 }
 
+.issueButton {
+    width: 8%;
+    background-color: aliceblue;
+    height: 6%;
+    margin: left;
+
 #buttontext {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -209,3 +219,4 @@ td > h4 {
       flex-direction: column;
     }
 }
+
